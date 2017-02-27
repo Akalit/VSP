@@ -1,0 +1,18 @@
+name.begin() 			указывает на начало переме
+name.end()			указывает на конец переме
+name.erase(name.begin(),name.begin()+3) удалить с начала 3 элем
+.push_back(i + 1)   			добавляет + 1 к элем 
+.resize(колво элем)		 изменяет розмер вектора
+
+vector<int>b(2,20);
+
+user.insert(user.end(),b.begin(),b.end()); 	добавляет в конец user все элем и  
+ 
+vector<int> a;
+
+vector<int>::iterator name = a.begin();    классный указатель)
+
+for(name; name != a.end();name++)
+cout << *name << endl; 				вывод всех элем мас от 0 до конца мас
+
+ 

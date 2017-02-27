@@ -1,0 +1,13 @@
+Для Code block
+
+#include<windows.h>
+SetConsoleOutputCP(1251); = отображения рус в конс
+	SetConsoleCP(1251); = отображение вводимого рус в конс
+
+Для визуалки
+
+system("chcp 1251");  
+system("cls");
+
+
+setlocale(LC_ALL, "Russian");

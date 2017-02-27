@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+class smart {
+private:                    то что в привате видит только этот класс 
+int year, month, day;
+public:                         видить вся прога
+	void funk() {
+		cout << "Class smart" << endl;
+}
+
+	void set(int v_yrar, int v_month, int v_day) {
+		year = v_yrar;
+		month = v_month;
+		day = v_day;
+}
+
+	void out() {
+		cout <<"year " << year << " monch "<< month << " day " << day << endl;
+}
+};
+
+
+int main()
+{
+
+smart mobil;
+mobil.funk();
+mobil.set(1998, 11 ,23); передаём аргум в функцию
+mobil.out();
+cout << endl;
+smart hts;
+hts.set(2010, 1, 3);
+hts.out();
+
+cin.get();
+	return 0;
+}

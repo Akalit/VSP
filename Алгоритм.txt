@@ -1,0 +1,18 @@
+#include <algorithm>
+begin()  ссылаеться на 1 элем
+end()  ссылаеться на последний
+rbegin()  ссылаеться на последний
+rend() на первый
+random_shuffle(name.begin(),name.end())   перемешивает значения массива расскидывая все его элем на разные память массива
+
+
+
+vector<int>name;
+	for(int q=9; q > -1;q--)   заполняем массив по убыванию
+	name.push_back(q);
+
+	sort(name.begin(),name.end());   сортируем по возрастанию
+
+	for(auto q : name)                выводим
+	{ cout << q+1 << endl;}
+	return 0;
