@@ -1,0 +1,46 @@
+#include<iostream>
+#include<windows.h>
+using namespace std;
+int main()
+{
+    while(true)
+    {
+        if(GetAsyncKeyState(VK_DOWN))
+    {
+        cout<<"Down\n";
+    }
+    if(GetAsyncKeyState(VK_UP))
+    {
+        cout<<"UP\n";
+    }
+    if(GetAsyncKeyState(VK_LEFT))
+    {
+        cout<<"LEFT\n";
+    }
+    if(GetAsyncKeyState(VK_RIGHT))
+    {
+        cout<<"RIGHT\n";
+    }
+    if(GetAsyncKeyState(VK_SPACE))
+    {
+        cout<<"SPACE\n";
+    }
+    if(GetAsyncKeyState(VK_MENU))
+    {
+        cout<<"ALT\n";
+    }
+    if(GetAsyncKeyState(VK_CONTROL))
+    {
+        cout<<"CTR\n";
+    }
+    if(GetAsyncKeyState(VK_RETURN))
+    {
+        cout<<"ENTER\n";
+    }
+    if(GetAsyncKeyState(VK_ESCAPE))
+    {
+        break;
+    }
+    }
+    system("pause");
+}
