@@ -1,0 +1,2 @@
+auto a = mst.equal_range (3); 	выражение ищет в конт mst границы числа 3
+for_each(a.first, eqr.secong,display) вывод указателя

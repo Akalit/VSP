@@ -1,0 +1,2 @@
+cin.unsetf(ios::skipws); // для снятия энтера 
+

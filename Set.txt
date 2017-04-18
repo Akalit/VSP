@@ -1,0 +1,3 @@
+emplace() 	вставить элем
+
+emplace_hint(place,number) 	вставку в указанное местом(place), и то что вставляем(number)
